@@ -1,3 +1,6 @@
 
 # secrets
 .env
+
+# Python bytecode (skill scripts)
+__pycache__/
