@@ -1,0 +1,327 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Length 5997 >>
+stream
+0.09 0.13 0.18 rg 0 790 595 52 re f
+0.09 0.13 0.18 RG 0.7 w 0 790 595 52 re S
+BT /F2 10 Tf 0.79 0.59 0.3 rg 48.0 810.0 Td (US Breakout \(OPR\)  Journal de trading) Tj ET
+BT /F1 9 Tf 1 1 1 rg 390.0 810.0 Td (XAUUSD  NAS100USD  EURUSD) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 279.5 22.0 Td (Page 1) Tj ET
+BT /F2 22 Tf 0.09 0.13 0.18 rg 83.0 758.0 Td (PLAN DE TRADING : Stratgie US Breakout \(OPR\)) Tj ET
+BT /F1 10.5 Tf 0.15 0.2 0.26 rg 48.0 728.0 Td (Concept de base : Exploiter la volatilit et les volumes massifs lors de l'ouverture de) Tj ET
+BT /F1 10.5 Tf 0.15 0.2 0.26 rg 48.0 713.0 Td (la session amricaine en utilisant une cassure de la premire bougie, en alignement avec) Tj ET
+BT /F1 10.5 Tf 0.15 0.2 0.26 rg 48.0 698.0 Td (la tendance de fond.) Tj ET
+0.96 0.94 0.9 rg 48 655 499 25 re f
+0.79 0.59 0.3 RG 1 w 48 655 499 25 re S
+BT /F2 11 Tf 0.09 0.13 0.18 rg 106.0 670.0 Td (XAUUSD) Tj ET
+BT /F2 11 Tf 0.09 0.13 0.18 rg 271.0 670.0 Td (NAS100USD) Tj ET
+BT /F2 11 Tf 0.09 0.13 0.18 rg 436.0 670.0 Td (EURUSD) Tj ET
+BT /F2 15 Tf 0.09 0.13 0.18 rg 48.0 629.0 Td (1. Checklist Quotidienne \(Prparation\)) Tj ET
+0.79 0.59 0.3 RG 1 w 48 617 m 547 617 l S
+0.79 0.59 0.3 RG 1 w 48 608 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 609.0 Td (Calendrier conomique : Vrifier qu'il n'y a pas d'annonces majeures \(NFP, CPI, PPI,) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 596.0 Td (FOMC, Taux d'intrt\) au moment de l'ouverture.) Tj ET
+0.79 0.59 0.3 RG 1 w 48 579 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 580.0 Td (Gestion du Risque : Vrifier que la taille de position correspond  0,25 % du capital) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 567.0 Td (maximum.) Tj ET
+0.79 0.59 0.3 RG 1 w 48 550 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 551.0 Td (Horaires stricts : Se prsenter devant les graphiques  15h00-15h30. Aucune analyse) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 538.0 Td (avant 15h30 \(Heure de Paris\).) Tj ET
+BT /F2 15 Tf 0.09 0.13 0.18 rg 48.0 516.0 Td (2. Configuration des Indicateurs) Tj ET
+0.79 0.59 0.3 RG 1 w 48 504 m 547 504 l S
+0.79 0.59 0.3 RG 1 w 48 495 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 496.0 Td (Supertrend : Plage temporelle fixe sur 1 Heure \(H1\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 479 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 480.0 Td (EMA 20 \(Rouge\) : Plage temporelle fixe de 5 minutes \(M5\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 463 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 464.0 Td (EMA 50 \(Noire\) : Plage temporelle fixe de 5 minutes \(M5\).) Tj ET
+BT /F2 15 Tf 0.09 0.13 0.18 rg 48.0 442.0 Td (3. Checklist d'Excution \( partir de 15h45\)) Tj ET
+0.79 0.59 0.3 RG 1 w 48 430 m 547 430 l S
+0.79 0.59 0.3 RG 1 w 48 421 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 422.0 Td (tape 1 : Attendre la clture de la bougie M15 \(de 15h30  15h45\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 405 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 406.0 Td (tape 2 : Tracer une ligne sur le point le plus HAUT et le point le plus BAS de cette) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 393.0 Td (bougie.) Tj ET
+0.79 0.59 0.3 RG 1 w 48 376 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 377.0 Td (tape 3 : Utiliser l'outil Fibonacci sur cette bougie pour afficher le niveau des 50 %) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 364.0 Td (\(Stop Loss\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 347 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 348.0 Td (tape 4 : Passer le graphique en 1 minute \(M1\) pour placer l'ordre.) Tj ET
+BT /F2 15 Tf 0.09 0.13 0.18 rg 48.0 326.0 Td (4. Conditions de Prise de Position \(Ordre Automatique\)) Tj ET
+0.79 0.59 0.3 RG 1 w 48 314 m 547 314 l S
+BT /F2 12 Tf 0.12 0.55 0.38 rg 48.0 306.0 Td (Pour un ACHAT) Tj ET
+BT /F2 12 Tf 0.7 0.2 0.2 rg 320.0 306.0 Td (Pour une VENTE) Tj ET
+0.79 0.59 0.3 RG 1 w 48 287 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 288.0 Td (Le Supertrend \(H1\) est vert \(sous le prix\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 271 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 272.0 Td (L'EMA 20 \(rouge\) est au-dessus de l'EMA 50 \(noire\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 255 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 256.0 Td (Action : Placer un ordre "Buy Stop" 1 point/pip au-dessus du haut de la bougie M15.) Tj ET
+0.79 0.59 0.3 RG 1 w 320 287 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 288.0 Td (Le Supertrend \(H1\) est rouge \(au-dessus) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 275.0 Td (du prix\).) Tj ET
+0.79 0.59 0.3 RG 1 w 320 258 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 259.0 Td (L'EMA 20 \(rouge\) est en dessous de l'EMA) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 246.0 Td (50 \(noire\).) Tj ET
+0.79 0.59 0.3 RG 1 w 320 229 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 230.0 Td (Action : Placer un ordre "Sell Stop" 1) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 217.0 Td (point/pip en dessous du bas de la bougie) Tj ET
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 336.0 204.0 Td (M15.) Tj ET
+BT /F2 15 Tf 0.09 0.13 0.18 rg 48.0 182.0 Td (5. Gestion du Trade) Tj ET
+0.79 0.59 0.3 RG 1 w 48 170 m 547 170 l S
+0.79 0.59 0.3 RG 1 w 48 161 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 162.0 Td (Stop Loss \(SL\) : Plac sur les 50% du range de la bougie M15.) Tj ET
+0.79 0.59 0.3 RG 1 w 48 145 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 146.0 Td (Take Profit \(TP\) : Ratio fixe selon l'actif \(ex: 3.5 pour NAS100, 2 pour US30\).) Tj ET
+0.79 0.59 0.3 RG 1 w 48 129 8 8 re S
+BT /F1 9.5 Tf 0.15 0.2 0.26 rg 64.0 130.0 Td (Heure limite : Clture imprative  21h00 maximum.) Tj ET
+BT /F2 15 Tf 0.09 0.13 0.18 rg 48.0 108.0 Td (6. Mtriques Cls \(Rappel\)) Tj ET
+0.79 0.59 0.3 RG 1 w 48 96 m 547 96 l S
+BT /F1 10 Tf 0.15 0.2 0.26 rg 48.0 88.0 Td (? Taux de russite \(Win Rate\) : Environ 30 %. Ne pas paniquer aprs 5 pertes) Tj ET
+BT /F1 10 Tf 0.15 0.2 0.26 rg 48.0 74.0 Td (conscutives.) Tj ET
+BT /F1 10 Tf 0.15 0.2 0.26 rg 48.0 60.0 Td (? Gestion du risque primordiale \(0,25% par trade\).) Tj ET
+BT /F1 10 Tf 0.15 0.2 0.26 rg 48.0 46.0 Td (? Toujours s'entraner en dmo avant de passer en rel.) Tj ET
+endstream
+endobj
+2 0 obj
+<< /Length 9692 >>
+stream
+0.09 0.13 0.18 rg 0 790 595 52 re f
+0.09 0.13 0.18 RG 0.7 w 0 790 595 52 re S
+BT /F2 10 Tf 0.79 0.59 0.3 rg 48.0 810.0 Td (US Breakout \(OPR\)  Journal de trading) Tj ET
+BT /F1 9 Tf 1 1 1 rg 390.0 810.0 Td (XAUUSD  NAS100USD  EURUSD) Tj ET
+BT /F1 8 Tf 0.4 0.45 0.52 rg 279.5 22.0 Td (Page 2) Tj ET
+BT /F2 20 Tf 0.09 0.13 0.18 rg 100.0 758.0 Td (Journal de trading ? Stratgie US Breakout \(OPR\)) Tj ET
+BT /F1 10.5 Tf 0.15 0.2 0.26 rg 48.0 724.0 Td ( remplir pour chaque paire et chaque session. Une page par journe permet de suivre la) Tj ET
+BT /F1 10.5 Tf 0.15 0.2 0.26 rg 48.0 709.0 Td (discipline, les rsultats et les axes d'amlioration.) Tj ET
+0.09 0.13 0.18 rg 48 671 553 18 re f
+0.09 0.13 0.18 RG 0.7 w 48 671 553 18 re S
+BT /F2 7 Tf 1 1 1 rg 52.0 677.0 Td (Date) Tj ET
+BT /F2 7 Tf 1 1 1 rg 100.0 677.0 Td (Paire) Tj ET
+BT /F2 7 Tf 1 1 1 rg 154.0 677.0 Td (Biais H1) Tj ET
+BT /F2 7 Tf 1 1 1 rg 209.0 677.0 Td (Range M15) Tj ET
+BT /F2 7 Tf 1 1 1 rg 269.0 677.0 Td (Ordre) Tj ET
+BT /F2 7 Tf 1 1 1 rg 316.0 677.0 Td (Entre) Tj ET
+BT /F2 7 Tf 1 1 1 rg 359.0 677.0 Td (SL) Tj ET
+BT /F2 7 Tf 1 1 1 rg 402.0 677.0 Td (TP) Tj ET
+BT /F2 7 Tf 1 1 1 rg 445.0 677.0 Td (R:R) Tj ET
+BT /F2 7 Tf 1 1 1 rg 480.0 677.0 Td (Rsultat) Tj ET
+BT /F2 7 Tf 1 1 1 rg 535.0 677.0 Td (Notes) Tj ET
+1 1 1 rg 48 661 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 661 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 661 m 48 689 l S
+0.75 0.78 0.82 RG 0.5 w 96 661 m 96 689 l S
+0.75 0.78 0.82 RG 0.5 w 150 661 m 150 689 l S
+0.75 0.78 0.82 RG 0.5 w 205 661 m 205 689 l S
+0.75 0.78 0.82 RG 0.5 w 265 661 m 265 689 l S
+0.75 0.78 0.82 RG 0.5 w 312 661 m 312 689 l S
+0.75 0.78 0.82 RG 0.5 w 355 661 m 355 689 l S
+0.75 0.78 0.82 RG 0.5 w 398 661 m 398 689 l S
+0.75 0.78 0.82 RG 0.5 w 441 661 m 441 689 l S
+0.75 0.78 0.82 RG 0.5 w 476 661 m 476 689 l S
+0.75 0.78 0.82 RG 0.5 w 531 661 m 531 689 l S
+0.75 0.78 0.82 RG 0.5 w 601 661 m 601 689 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 671.0 Td (XAUUSD) Tj ET
+0.97 0.98 0.99 rg 48 633 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 633 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 633 m 48 661 l S
+0.75 0.78 0.82 RG 0.5 w 96 633 m 96 661 l S
+0.75 0.78 0.82 RG 0.5 w 150 633 m 150 661 l S
+0.75 0.78 0.82 RG 0.5 w 205 633 m 205 661 l S
+0.75 0.78 0.82 RG 0.5 w 265 633 m 265 661 l S
+0.75 0.78 0.82 RG 0.5 w 312 633 m 312 661 l S
+0.75 0.78 0.82 RG 0.5 w 355 633 m 355 661 l S
+0.75 0.78 0.82 RG 0.5 w 398 633 m 398 661 l S
+0.75 0.78 0.82 RG 0.5 w 441 633 m 441 661 l S
+0.75 0.78 0.82 RG 0.5 w 476 633 m 476 661 l S
+0.75 0.78 0.82 RG 0.5 w 531 633 m 531 661 l S
+0.75 0.78 0.82 RG 0.5 w 601 633 m 601 661 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 643.0 Td (NAS100USD) Tj ET
+1 1 1 rg 48 605 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 605 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 605 m 48 633 l S
+0.75 0.78 0.82 RG 0.5 w 96 605 m 96 633 l S
+0.75 0.78 0.82 RG 0.5 w 150 605 m 150 633 l S
+0.75 0.78 0.82 RG 0.5 w 205 605 m 205 633 l S
+0.75 0.78 0.82 RG 0.5 w 265 605 m 265 633 l S
+0.75 0.78 0.82 RG 0.5 w 312 605 m 312 633 l S
+0.75 0.78 0.82 RG 0.5 w 355 605 m 355 633 l S
+0.75 0.78 0.82 RG 0.5 w 398 605 m 398 633 l S
+0.75 0.78 0.82 RG 0.5 w 441 605 m 441 633 l S
+0.75 0.78 0.82 RG 0.5 w 476 605 m 476 633 l S
+0.75 0.78 0.82 RG 0.5 w 531 605 m 531 633 l S
+0.75 0.78 0.82 RG 0.5 w 601 605 m 601 633 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 615.0 Td (EURUSD) Tj ET
+0.97 0.98 0.99 rg 48 577 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 577 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 577 m 48 605 l S
+0.75 0.78 0.82 RG 0.5 w 96 577 m 96 605 l S
+0.75 0.78 0.82 RG 0.5 w 150 577 m 150 605 l S
+0.75 0.78 0.82 RG 0.5 w 205 577 m 205 605 l S
+0.75 0.78 0.82 RG 0.5 w 265 577 m 265 605 l S
+0.75 0.78 0.82 RG 0.5 w 312 577 m 312 605 l S
+0.75 0.78 0.82 RG 0.5 w 355 577 m 355 605 l S
+0.75 0.78 0.82 RG 0.5 w 398 577 m 398 605 l S
+0.75 0.78 0.82 RG 0.5 w 441 577 m 441 605 l S
+0.75 0.78 0.82 RG 0.5 w 476 577 m 476 605 l S
+0.75 0.78 0.82 RG 0.5 w 531 577 m 531 605 l S
+0.75 0.78 0.82 RG 0.5 w 601 577 m 601 605 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 587.0 Td (XAUUSD) Tj ET
+1 1 1 rg 48 549 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 549 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 549 m 48 577 l S
+0.75 0.78 0.82 RG 0.5 w 96 549 m 96 577 l S
+0.75 0.78 0.82 RG 0.5 w 150 549 m 150 577 l S
+0.75 0.78 0.82 RG 0.5 w 205 549 m 205 577 l S
+0.75 0.78 0.82 RG 0.5 w 265 549 m 265 577 l S
+0.75 0.78 0.82 RG 0.5 w 312 549 m 312 577 l S
+0.75 0.78 0.82 RG 0.5 w 355 549 m 355 577 l S
+0.75 0.78 0.82 RG 0.5 w 398 549 m 398 577 l S
+0.75 0.78 0.82 RG 0.5 w 441 549 m 441 577 l S
+0.75 0.78 0.82 RG 0.5 w 476 549 m 476 577 l S
+0.75 0.78 0.82 RG 0.5 w 531 549 m 531 577 l S
+0.75 0.78 0.82 RG 0.5 w 601 549 m 601 577 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 559.0 Td (NAS100USD) Tj ET
+0.97 0.98 0.99 rg 48 521 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 521 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 521 m 48 549 l S
+0.75 0.78 0.82 RG 0.5 w 96 521 m 96 549 l S
+0.75 0.78 0.82 RG 0.5 w 150 521 m 150 549 l S
+0.75 0.78 0.82 RG 0.5 w 205 521 m 205 549 l S
+0.75 0.78 0.82 RG 0.5 w 265 521 m 265 549 l S
+0.75 0.78 0.82 RG 0.5 w 312 521 m 312 549 l S
+0.75 0.78 0.82 RG 0.5 w 355 521 m 355 549 l S
+0.75 0.78 0.82 RG 0.5 w 398 521 m 398 549 l S
+0.75 0.78 0.82 RG 0.5 w 441 521 m 441 549 l S
+0.75 0.78 0.82 RG 0.5 w 476 521 m 476 549 l S
+0.75 0.78 0.82 RG 0.5 w 531 521 m 531 549 l S
+0.75 0.78 0.82 RG 0.5 w 601 521 m 601 549 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 531.0 Td (EURUSD) Tj ET
+1 1 1 rg 48 493 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 493 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 493 m 48 521 l S
+0.75 0.78 0.82 RG 0.5 w 96 493 m 96 521 l S
+0.75 0.78 0.82 RG 0.5 w 150 493 m 150 521 l S
+0.75 0.78 0.82 RG 0.5 w 205 493 m 205 521 l S
+0.75 0.78 0.82 RG 0.5 w 265 493 m 265 521 l S
+0.75 0.78 0.82 RG 0.5 w 312 493 m 312 521 l S
+0.75 0.78 0.82 RG 0.5 w 355 493 m 355 521 l S
+0.75 0.78 0.82 RG 0.5 w 398 493 m 398 521 l S
+0.75 0.78 0.82 RG 0.5 w 441 493 m 441 521 l S
+0.75 0.78 0.82 RG 0.5 w 476 493 m 476 521 l S
+0.75 0.78 0.82 RG 0.5 w 531 493 m 531 521 l S
+0.75 0.78 0.82 RG 0.5 w 601 493 m 601 521 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 503.0 Td (XAUUSD) Tj ET
+0.97 0.98 0.99 rg 48 465 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 465 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 465 m 48 493 l S
+0.75 0.78 0.82 RG 0.5 w 96 465 m 96 493 l S
+0.75 0.78 0.82 RG 0.5 w 150 465 m 150 493 l S
+0.75 0.78 0.82 RG 0.5 w 205 465 m 205 493 l S
+0.75 0.78 0.82 RG 0.5 w 265 465 m 265 493 l S
+0.75 0.78 0.82 RG 0.5 w 312 465 m 312 493 l S
+0.75 0.78 0.82 RG 0.5 w 355 465 m 355 493 l S
+0.75 0.78 0.82 RG 0.5 w 398 465 m 398 493 l S
+0.75 0.78 0.82 RG 0.5 w 441 465 m 441 493 l S
+0.75 0.78 0.82 RG 0.5 w 476 465 m 476 493 l S
+0.75 0.78 0.82 RG 0.5 w 531 465 m 531 493 l S
+0.75 0.78 0.82 RG 0.5 w 601 465 m 601 493 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 475.0 Td (NAS100USD) Tj ET
+1 1 1 rg 48 437 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 437 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 437 m 48 465 l S
+0.75 0.78 0.82 RG 0.5 w 96 437 m 96 465 l S
+0.75 0.78 0.82 RG 0.5 w 150 437 m 150 465 l S
+0.75 0.78 0.82 RG 0.5 w 205 437 m 205 465 l S
+0.75 0.78 0.82 RG 0.5 w 265 437 m 265 465 l S
+0.75 0.78 0.82 RG 0.5 w 312 437 m 312 465 l S
+0.75 0.78 0.82 RG 0.5 w 355 437 m 355 465 l S
+0.75 0.78 0.82 RG 0.5 w 398 437 m 398 465 l S
+0.75 0.78 0.82 RG 0.5 w 441 437 m 441 465 l S
+0.75 0.78 0.82 RG 0.5 w 476 437 m 476 465 l S
+0.75 0.78 0.82 RG 0.5 w 531 437 m 531 465 l S
+0.75 0.78 0.82 RG 0.5 w 601 437 m 601 465 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 447.0 Td (EURUSD) Tj ET
+0.97 0.98 0.99 rg 48 409 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 409 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 409 m 48 437 l S
+0.75 0.78 0.82 RG 0.5 w 96 409 m 96 437 l S
+0.75 0.78 0.82 RG 0.5 w 150 409 m 150 437 l S
+0.75 0.78 0.82 RG 0.5 w 205 409 m 205 437 l S
+0.75 0.78 0.82 RG 0.5 w 265 409 m 265 437 l S
+0.75 0.78 0.82 RG 0.5 w 312 409 m 312 437 l S
+0.75 0.78 0.82 RG 0.5 w 355 409 m 355 437 l S
+0.75 0.78 0.82 RG 0.5 w 398 409 m 398 437 l S
+0.75 0.78 0.82 RG 0.5 w 441 409 m 441 437 l S
+0.75 0.78 0.82 RG 0.5 w 476 409 m 476 437 l S
+0.75 0.78 0.82 RG 0.5 w 531 409 m 531 437 l S
+0.75 0.78 0.82 RG 0.5 w 601 409 m 601 437 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 419.0 Td (XAUUSD) Tj ET
+1 1 1 rg 48 381 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 381 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 381 m 48 409 l S
+0.75 0.78 0.82 RG 0.5 w 96 381 m 96 409 l S
+0.75 0.78 0.82 RG 0.5 w 150 381 m 150 409 l S
+0.75 0.78 0.82 RG 0.5 w 205 381 m 205 409 l S
+0.75 0.78 0.82 RG 0.5 w 265 381 m 265 409 l S
+0.75 0.78 0.82 RG 0.5 w 312 381 m 312 409 l S
+0.75 0.78 0.82 RG 0.5 w 355 381 m 355 409 l S
+0.75 0.78 0.82 RG 0.5 w 398 381 m 398 409 l S
+0.75 0.78 0.82 RG 0.5 w 441 381 m 441 409 l S
+0.75 0.78 0.82 RG 0.5 w 476 381 m 476 409 l S
+0.75 0.78 0.82 RG 0.5 w 531 381 m 531 409 l S
+0.75 0.78 0.82 RG 0.5 w 601 381 m 601 409 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 391.0 Td (NAS100USD) Tj ET
+0.97 0.98 0.99 rg 48 353 553 28 re f
+0.75 0.78 0.82 RG 0.5 w 48 353 553 28 re S
+0.75 0.78 0.82 RG 0.5 w 48 353 m 48 381 l S
+0.75 0.78 0.82 RG 0.5 w 96 353 m 96 381 l S
+0.75 0.78 0.82 RG 0.5 w 150 353 m 150 381 l S
+0.75 0.78 0.82 RG 0.5 w 205 353 m 205 381 l S
+0.75 0.78 0.82 RG 0.5 w 265 353 m 265 381 l S
+0.75 0.78 0.82 RG 0.5 w 312 353 m 312 381 l S
+0.75 0.78 0.82 RG 0.5 w 355 353 m 355 381 l S
+0.75 0.78 0.82 RG 0.5 w 398 353 m 398 381 l S
+0.75 0.78 0.82 RG 0.5 w 441 353 m 441 381 l S
+0.75 0.78 0.82 RG 0.5 w 476 353 m 476 381 l S
+0.75 0.78 0.82 RG 0.5 w 531 353 m 531 381 l S
+0.75 0.78 0.82 RG 0.5 w 601 353 m 601 381 l S
+BT /F1 8 Tf 0.15 0.2 0.26 rg 100.0 363.0 Td (EURUSD) Tj ET
+BT /F1 10 Tf 0.15 0.2 0.26 rg 48.0 325.0 Td (Revue post-session : erreurs vites, rgle respecte, motion dominante, amlioration) Tj ET
+BT /F1 10 Tf 0.15 0.2 0.26 rg 48.0 311.0 Td (pour demain.) Tj ET
+endstream
+endobj
+3 0 obj
+<< /Type /Pages /Kids [4 0 R 5 0 R] /Count 2 >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 1 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R /F2 7 0 R >> >> /Contents 2 0 R >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+8 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000006064 00000 n 
+0000015808 00000 n 
+0000015871 00000 n 
+0000016007 00000 n 
+0000016143 00000 n 
+0000016240 00000 n 
+0000016342 00000 n 
+trailer << /Size 9 /Root 8 0 R >>
+startxref
+16391
+%%EOF

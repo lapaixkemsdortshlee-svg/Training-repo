@@ -1,0 +1,18 @@
+{
+  "name": "Plan de Trading US Breakout OPR",
+  "short_name": "Trading OPR",
+  "description": "App éditable pour plan de trading et journal US Breakout OPR.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#18212b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
