@@ -1,17 +1,37 @@
 # App — Plan de trading US Breakout (OPR)
 
-Utilisation simple : ouvrez le lien `trading-plan/index.html` dans un navigateur et utilisez-le comme une petite app.
+✅ Conflit résolu : cette version conserve l'app simple et prête à utiliser.
 
-## Ce que vous pouvez faire
+## Lien à ouvrir
 
-- Modifier directement les textes, règles, paires et lignes du journal.
-- Ajuster le risque, les horaires et le ratio TP.
-- Cocher/décocher les checklists pendant votre session.
-- Sauvegarder automatiquement vos changements dans le navigateur.
-- Télécharger une sauvegarde JSON avec **Sauvegarder mes données**.
-- Restaurer une sauvegarde JSON avec **Restaurer mes données**.
-- Exporter votre version en PDF avec **Exporter les modifications en PDF**.
-- Installer l'app si le navigateur propose le bouton **Installer l'app**.
+Ouvrez directement ce fichier dans votre navigateur :
+
+```text
+trading-plan/index.html
+```
+
+Vous pouvez aussi lancer un petit serveur local depuis la racine du projet :
+
+```bash
+python3 -m http.server 8080
+```
+
+Puis ouvrir :
+
+```text
+http://localhost:8080/trading-plan/
+```
+
+## Utilisation normale
+
+1. Ouvrez l'app.
+2. Cliquez sur les textes, règles, paires ou lignes du journal pour les modifier.
+3. Ajustez le risque, les horaires et le ratio TP.
+4. Cochez/décochez les checklists pendant votre session.
+5. Remplissez le journal de trading.
+6. Cliquez sur **Sauvegarder mes données** pour télécharger une copie JSON.
+7. Cliquez sur **Restaurer mes données** pour recharger une sauvegarde JSON.
+8. Cliquez sur **Exporter les modifications en PDF** pour enregistrer votre version personnalisée.
 
 ## Fichiers
 
