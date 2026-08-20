@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artefact éditable — Plan de trading US Breakout (OPR)</title>
+  <style>
+    :root{--ink:#18212b;--muted:#667085;--gold:#c9974c;--cream:#f7f0e6;--line:#d7dee8;--green:#1f9d6a;--red:#c64a4a;--paper:#fff}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#111827,#27374a 55%,#c9974c);font-family:Inter,Segoe UI,system-ui,sans-serif;color:var(--ink)}.shell{width:min(1180px,calc(100% - 32px));margin:32px auto}.hero,.editor,.journal{background:rgba(255,255,255,.95);border:1px solid rgba(255,255,255,.5);border-radius:28px;box-shadow:0 28px 80px rgba(0,0,0,.22);padding:34px;margin-bottom:24px}.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}.eyebrow{letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:800;font-size:.78rem}h1{font-size:clamp(2rem,4vw,3.8rem);line-height:1;margin:.25em 0}.lead{font-size:1.08rem;line-height:1.7;color:var(--muted)}.controls{background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px}.progress{height:16px;background:#edf2f7;border-radius:999px;overflow:hidden;border:1px solid var(--line);margin:16px 0 10px}.bar{height:100%;width:0;background:linear-gradient(90deg,var(--gold),var(--green));transition:width .35s ease}.status{font-weight:800;color:var(--muted);min-height:24px}.actions{display:grid;gap:10px}.btn{border:0;border-radius:15px;background:var(--ink);color:white;font-weight:900;font-size:.98rem;padding:14px 16px;cursor:pointer;transition:transform .18s,box-shadow .18s}.btn:hover{transform:translateY(-2px);box-shadow:0 16px 28px rgba(24,33,43,.22)}.btn.secondary{background:var(--gold);color:#1c1307}.btn.ghost{background:#fff;color:var(--ink);border:1px solid var(--line)}.btn.ready{background:var(--green)}.settings{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}.field label{display:block;color:var(--muted);font-size:.82rem;font-weight:800;margin-bottom:6px}.field input{width:100%;border:1px solid var(--line);border-radius:12px;padding:12px;font:inherit;font-weight:800;color:var(--ink)}.paper{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:28px}.editable{outline:2px dashed transparent;border-radius:8px}.editable:hover,.editable:focus{outline-color:rgba(201,151,76,.55);background:#fff9ef}.pairs{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.pair{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:var(--cream);border:1px solid var(--line);font-weight:900}.pair button,.row-remove{border:0;background:transparent;color:var(--red);font-weight:900;cursor:pointer}.section{border-top:1px solid var(--line);padding-top:20px;margin-top:20px}.checklist{display:grid;gap:10px}.check{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:start}.check input{width:18px;height:18px;accent-color:var(--gold);margin-top:3px}.trade-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.box{border:1px solid var(--line);border-radius:16px;padding:16px;background:#fbfcfe}.buy h3{color:var(--green)}.sell h3{color:var(--red)}.metrics li{margin:.45rem 0}.journal-tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}table{width:100%;border-collapse:collapse;background:white;border-radius:14px;overflow:hidden}th{background:var(--ink);color:white;font-size:.78rem;padding:10px}td{border:1px solid var(--line);padding:10px;min-width:85px}td[contenteditable="true"]{background:#fff}.hint{color:var(--muted);font-size:.9rem}@media(max-width:820px){.hero,.trade-grid,.settings{grid-template-columns:1fr}.shell{width:min(100% - 20px,1180px)}.hero,.editor,.journal{padding:22px}}@media print{body{background:white}.controls,.journal-tools,.row-remove,.pair button,.hint{display:none}.shell{width:100%;margin:0}.hero,.editor,.journal{box-shadow:none;border:0;margin:0;border-radius:0}.hero{display:block}.editable{outline:0}.paper{border:0;padding:0}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Document modifiable et ajustable</p>
+        <h1 class="editable" contenteditable="true" data-save="title">Plan de trading US Breakout (OPR)</h1>
+        <p class="lead editable" contenteditable="true" data-save="intro">Artefact professionnel éditable : modifiez les règles, ajustez les paramètres, cochez les étapes, ajoutez des lignes au journal, puis imprimez en PDF ou téléchargez la version générée.</p>
+        <p class="hint">Astuce : cliquez directement sur les textes encadrés pour les modifier. Les changements sont sauvegardés dans votre navigateur.</p>
+      </div>
+      <aside class="controls" aria-label="Téléchargement avec progression">
+        <strong>Progression au clic</strong>
+        <div class="progress" aria-hidden="true"><div class="bar" id="bar"></div></div>
+        <p class="status" id="status">Cliquez pour préparer le fichier.</p>
+        <div class="actions">
+          <button class="btn" id="download" type="button">Préparer et télécharger le PDF</button>
+          <button class="btn secondary" id="print" type="button">Exporter les modifications en PDF</button>
+          <button class="btn ghost" id="reset" type="button">Réinitialiser les modifications</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="editor">
+      <div class="settings" aria-label="Paramètres ajustables">
+        <div class="field"><label for="risk">Risque par trade</label><input id="risk" data-save="risk" value="0,25 %"></div>
+        <div class="field"><label for="start">Début d'analyse</label><input id="start" data-save="start" value="15h30 Paris"></div>
+        <div class="field"><label for="close">Clôture limite</label><input id="close" data-save="close" value="21h00 maximum"></div>
+        <div class="field"><label for="tp">TP / Ratio cible</label><input id="tp" data-save="tp" value="NAS100 3.5 · US30 2"></div>
+      </div>
+      <article class="paper" id="document">
+        <p class="eyebrow">PLAN DE TRADING : Stratégie US Breakout (OPR)</p>
+        <p class="editable" contenteditable="true" data-save="concept"><strong>Concept de base :</strong> Exploiter la volatilité et les volumes massifs lors de l'ouverture de la session américaine en utilisant une cassure de la première bougie, en alignement avec la tendance de fond.</p>
+        <div class="pairs" id="pairs"><span class="pair" contenteditable="true">XAUUSD <button type="button" aria-label="Supprimer">×</button></span><span class="pair" contenteditable="true">NAS100USD <button type="button" aria-label="Supprimer">×</button></span><span class="pair" contenteditable="true">EURUSD <button type="button" aria-label="Supprimer">×</button></span></div>
+        <button class="btn ghost" id="addPair" type="button">Ajouter une paire</button>
+
+        <section class="section"><h2 class="editable" contenteditable="true">1. Checklist Quotidienne (Préparation)</h2><div class="checklist"><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Calendrier Économique : Vérifier qu'il n'y a pas d'annonces majeures (NFP, CPI, PPI, FOMC, Taux d'intérêt) au moment de l'ouverture.</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Gestion du Risque : Vérifier que la taille de position correspond au risque défini plus haut.</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Horaires stricts : Se présenter devant les graphiques à 15h00-15h30. Aucune analyse avant 15h30 (Heure de Paris).</span></label></div></section>
+        <section class="section"><h2 class="editable" contenteditable="true">2. Configuration des Indicateurs</h2><div class="checklist"><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Supertrend : Plage temporelle fixe sur 1 Heure (H1).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">EMA 20 (Rouge) : Plage temporelle fixe de 5 minutes (M5).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">EMA 50 (Noire) : Plage temporelle fixe de 5 minutes (M5).</span></label></div></section>
+        <section class="section"><h2 class="editable" contenteditable="true">3. Checklist d'Exécution (À partir de 15h45)</h2><div class="checklist"><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Étape 1 : Attendre la clôture de la bougie M15 (de 15h30 à 15h45).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Étape 2 : Tracer une ligne sur le point le plus HAUT et le point le plus BAS de cette bougie.</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Étape 3 : Utiliser l'outil Fibonacci sur cette bougie pour afficher le niveau des 50 % (Stop Loss).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Étape 4 : Passer le graphique en 1 minute (M1) pour placer l'ordre.</span></label></div></section>
+        <section class="section"><h2 class="editable" contenteditable="true">4. Conditions de Prise de Position (Ordre Automatique)</h2><div class="trade-grid"><div class="box buy"><h3>Pour un ACHAT</h3><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Le Supertrend (H1) est vert (sous le prix).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">L'EMA 20 (rouge) est au-dessus de l'EMA 50 (noire).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Action : Placer un ordre "Buy Stop" 1 point/pip au-dessus du haut de la bougie M15.</span></label></div><div class="box sell"><h3>Pour une VENTE</h3><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Le Supertrend (H1) est rouge (au-dessus du prix).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">L'EMA 20 (rouge) est en dessous de l'EMA 50 (noire).</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Action : Placer un ordre "Sell Stop" 1 point/pip en dessous du bas de la bougie M15.</span></label></div></div></section>
+        <section class="section"><h2 class="editable" contenteditable="true">5. Gestion du Trade</h2><div class="checklist"><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Stop Loss (SL) : Placé sur les 50% du range de la bougie M15.</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Take Profit (TP) : Ratio fixe selon l'actif, ajustable dans les paramètres.</span></label><label class="check"><input type="checkbox"><span class="editable" contenteditable="true">Heure limite : Clôture impérative à l'heure limite définie plus haut.</span></label></div></section>
+        <section class="section"><h2 class="editable" contenteditable="true">6. Métriques Clés (Rappel)</h2><ul class="metrics"><li class="editable" contenteditable="true">Taux de réussite (Win Rate) : Environ 30 %. Ne pas paniquer après 5 pertes consécutives.</li><li class="editable" contenteditable="true">Gestion du risque primordiale (0,25% par trade).</li><li class="editable" contenteditable="true">Toujours s'entraîner en démo avant de passer en réel.</li></ul></section>
+      </article>
+    </section>
+
+    <section class="journal">
+      <p class="eyebrow">Journal de trading ajustable</p>
+      <div class="journal-tools"><button class="btn secondary" id="addRow" type="button">Ajouter une ligne</button><button class="btn ghost" id="clearChecks" type="button">Décocher les checklists</button></div>
+      <table id="journal"><thead><tr><th>Date</th><th>Paire</th><th>Biais H1</th><th>Range M15</th><th>Ordre</th><th>Entrée</th><th>SL</th><th>TP</th><th>R:R</th><th>Résultat</th><th>Notes</th><th></th></tr></thead><tbody></tbody></table>
+    </section>
+  </main>
+
+  <script>
+    const storageKey = 'oprEditablePlanV2';
+    const steps = ['Vérification des checklists…','Synchronisation des paramètres…','Ajout du journal de trading…','Téléchargement prêt.'];
+    const bar = document.getElementById('bar');
+    const status = document.getElementById('status');
+    const download = document.getElementById('download');
+    let clickCount = 0;
+
+    function serialize() {
+      return {
+        html: document.getElementById('document').innerHTML,
+        journal: document.querySelector('#journal tbody').innerHTML,
+        fields: [...document.querySelectorAll('[data-save]')].map(el => [el.dataset.save, el.value ?? el.innerHTML]),
+        checks: [...document.querySelectorAll('input[type="checkbox"]')].map(el => el.checked)
+      };
+    }
+    function save() { localStorage.setItem(storageKey, JSON.stringify(serialize())); }
+    function restore() {
+      const raw = localStorage.getItem(storageKey);
+      if (!raw) { seedRows(); return; }
+      const data = JSON.parse(raw);
+      document.getElementById('document').innerHTML = data.html;
+      document.querySelector('#journal tbody').innerHTML = data.journal;
+      (data.fields || []).forEach(([key, value]) => { const el = document.querySelector(`[data-save="${key}"]`); if (el) 'value' in el ? el.value = value : el.innerHTML = value; });
+      [...document.querySelectorAll('input[type="checkbox"]')].forEach((el, i) => { el.checked = Boolean(data.checks?.[i]); });
+    }
+    function addJournalRow(pair = '') {
+      const row = document.createElement('tr');
+      row.innerHTML = ['Date', 'Paire', 'Biais H1', 'Range M15', 'Ordre', 'Entrée', 'SL', 'TP', 'R:R', 'Résultat', 'Notes'].map((_, i) => `<td contenteditable="true">${i === 1 ? pair : ''}</td>`).join('') + '<td><button class="row-remove" type="button">×</button></td>';
+      document.querySelector('#journal tbody').appendChild(row);
+    }
+    function seedRows() { ['XAUUSD','NAS100USD','EURUSD','XAUUSD','NAS100USD','EURUSD'].forEach(addJournalRow); }
+
+    restore();
+    document.addEventListener('input', save);
+    document.addEventListener('change', save);
+    document.addEventListener('click', (event) => {
+      if (event.target.matches('.pair button')) { event.target.closest('.pair').remove(); save(); }
+      if (event.target.matches('.row-remove')) { event.target.closest('tr').remove(); save(); }
+    });
+    document.getElementById('addPair').addEventListener('click', () => {
+      const span = document.createElement('span');
+      span.className = 'pair';
+      span.contentEditable = 'true';
+      span.innerHTML = 'NOUVELLEPAIRE <button type="button" aria-label="Supprimer">×</button>';
+      document.getElementById('pairs').appendChild(span);
+      save();
+    });
+    document.getElementById('addRow').addEventListener('click', () => { addJournalRow(); save(); });
+    document.getElementById('clearChecks').addEventListener('click', () => { document.querySelectorAll('input[type="checkbox"]').forEach(el => el.checked = false); save(); });
+    document.getElementById('print').addEventListener('click', () => window.print());
+    document.getElementById('reset').addEventListener('click', () => { localStorage.removeItem(storageKey); location.reload(); });
+    download.addEventListener('click', () => {
+      clickCount = Math.min(clickCount + 1, steps.length);
+      const percent = Math.round((clickCount / steps.length) * 100);
+      bar.style.width = `${percent}%`;
+      status.textContent = `${percent}% — ${steps[clickCount - 1]}`;
+      if (clickCount === steps.length) {
+        download.classList.add('ready');
+        const a = document.createElement('a');
+        a.href = 'artifacts/plan-trading-us-breakout-opr.pdf';
+        a.download = 'plan-trading-us-breakout-opr.pdf';
+        a.click();
+        clickCount = 0;
+        setTimeout(() => { bar.style.width = '0%'; status.textContent = 'Cliquez pour relancer la préparation.'; }, 1200);
+      }
+    });
+  </script>
+</body>
+</html>
